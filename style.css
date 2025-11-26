@@ -1,0 +1,53 @@
+html,body{
+  height: 100%;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+}
+body{
+  background-color: black;
+}
+main{
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+p{
+  color: brown;
+  font-size: 50px;
+  padding: 15px;
+
+}
+
+button{
+  font-size: 45px;
+  margin: 10px 50px;
+  background-color: rgb(243, 8, 243);
+  font-weight: 400;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  padding: 2px;
+  transition: transform 0.3s ease-in;
+}
+
+button:active{
+  scale:0.95;
+}
+
+
+.copy{
+  color: white;
+  font-size: 20px;
+  margin: 10px 50px;
+  background-color: rgb(39, 17, 127);
+  font-weight: 400;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  padding: 2px;
+  transition: transform 0.3s ease-in;
+}
+.copy:active{
+  scale:0.95;
+}
